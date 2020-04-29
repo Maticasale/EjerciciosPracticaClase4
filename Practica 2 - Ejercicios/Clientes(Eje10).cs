@@ -12,8 +12,14 @@ namespace Practica_2___Ejercicios
         public int cuit { get; set; }
         public int Saldo { get; set; }
 
+        /// <summary>
+        /// No sobreescribe el operador resta.
+        /// </summary>
+        /// <param name="C1"></param>
+        /// <param name="C2"></param>
+        /// <returns></returns>
         public static Clientes_Eje10_ OperacionesClientes(Clientes_Eje10_ C1, Clientes_Eje10_ C2)
-        {
+        {            
             Clientes_Eje10_ ClienteARetornar = new Clientes_Eje10_();
 
             if (C1.cuit == C2.cuit)

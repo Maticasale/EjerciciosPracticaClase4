@@ -10,6 +10,7 @@ namespace Practica_2___Ejercicios
     {
         public static string GenerarString(this string[] ArrayPalabras, char Separador)
         {
+            //Se puede usar arrayPalabras.split(separador)
             string final = "";
             foreach (var item in ArrayPalabras)
                 final += Separador + item;

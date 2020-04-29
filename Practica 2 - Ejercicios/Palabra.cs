@@ -18,6 +18,11 @@ namespace Practica_2___Ejercicios
 
     public static class ContarPalabras //1
     {
+        /// <summary>
+        /// NO hace falta que palabra sea un objeto, puede ser un string directamente
+        /// </summary>
+        /// <param name="Oracion"></param>
+        /// <returns></returns>
         public static int IngresarOracion(this Palabra Oracion)
         {
             int cantidadPalabras = 1;
